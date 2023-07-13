@@ -5,5 +5,6 @@ export class Player implements Person {
     highScore: number;
     formatName() {
         return this.name.toUpperCase();
+        ///
     }
 }
